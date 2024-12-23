@@ -3,7 +3,7 @@ name: evcc
 version: 0.131.12
 slug: evcc
 description: EV Charge Controller!
-url: https://github.com/pmec/evcc/tree/feature/charger_v2c_trydan
+url: https://github.com/aleixpellicer/evcc
 arch: 
   - armhf
   - armv7
@@ -19,7 +19,7 @@ stage: stable
 ingress: true
 ingress_port: 7070
 init: false
-image: pmec/evcc/tree/feature/charger_v2c_trydan
+image: aleixpellicer/evcc
 options: 
   config_file: /config/evcc.yaml
   sqlite_file: /data/evcc.db
